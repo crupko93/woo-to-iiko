@@ -1,0 +1,992 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce and Iiko Integrated Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-27 14:24+0000\n"
+"PO-Revision-Date: 2019-02-27 14:41+0000\n"
+"Last-Translator: bo3gyx <yourname@yourdomain.com>\n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.1"
+
+#: includes/WC_Settings_IIKO.php:39
+msgid "Iiko settings"
+msgstr "Настройки IIko"
+
+#: includes/WC_Settings_IIKO.php:50 includes/import/form-import.php:42
+msgid "General Settings"
+msgstr "Основные настройки"
+
+#: includes/WC_Settings_IIKO.php:51
+msgid "Export Settings"
+msgstr "Настройки Экспорта"
+
+#: includes/WC_Settings_IIKO.php:52
+msgid "Checkout Page Settings"
+msgstr "Настройки Страницы Оплаты"
+
+#: includes/WC_Settings_IIKO.php:69
+msgid "Iiko connection settings"
+msgstr "Iiko настройки соединения"
+
+#: includes/WC_Settings_IIKO.php:71
+msgid "Setup iiko connection settings for import and export"
+msgstr "Установить настройки соединения для импорта и экспорта"
+
+#: includes/WC_Settings_IIKO.php:75
+msgid "Server iiko"
+msgstr "Сервер iiko"
+
+#: includes/WC_Settings_IIKO.php:78
+msgid "Example: https://iiko.biz:9900/"
+msgstr "Например: https://iiko.biz:9900/"
+
+#: includes/WC_Settings_IIKO.php:82
+msgid "Login"
+msgstr "Логин"
+
+#: includes/WC_Settings_IIKO.php:85
+msgid "Client login."
+msgstr "Логин клиента"
+
+#: includes/WC_Settings_IIKO.php:89
+msgid "Password"
+msgstr "Пароль"
+
+#: includes/WC_Settings_IIKO.php:92
+msgid "Client secret"
+msgstr "Пароль клиента"
+
+#: includes/WC_Settings_IIKO.php:96
+msgid "City"
+msgstr "Город"
+
+#: includes/WC_Settings_IIKO.php:98
+msgid "Санкт-Петербург"
+msgstr "Санкт-Петербург"
+
+#: includes/WC_Settings_IIKO.php:99
+msgid "Default city. Need to use KLADR "
+msgstr "Город по-умолчанию. Необходимо для использования КЛАДР"
+
+#: includes/WC_Settings_IIKO.php:103
+msgid "City ID"
+msgstr "ID Города"
+
+#: includes/WC_Settings_IIKO.php:106
+msgid "City ID in KLADR. Filled automatically after selecting a city."
+msgstr ""
+"ID Города в <a href=\"https://kladr-rf.ru/\">КЛАДР</a>. Поле заполняется "
+"автоматически после указания города."
+
+#: includes/WC_Settings_IIKO.php:111
+msgid ""
+"Enable debug mode for import and export. Or enable all wordpress Debugging, "
+"WP_DEBUG = true"
+msgstr ""
+"Включить режим отладки для импорта и экспорта. Или включите отладку для "
+"WordPress, с помощью WP_DEBUG = true в файле wp-config.php, в корне сайта."
+
+#: includes/WC_Settings_IIKO.php:117
+msgid "See console and php error log."
+msgstr "Смотрите сообщения в консоли и логе ошибок php"
+
+#: includes/WC_Settings_IIKO.php:131
+msgid "Import Settings"
+msgstr "Настройки импорта"
+
+#: includes/WC_Settings_IIKO.php:133 includes/import/form-import.php:112
+msgid "Additional settings"
+msgstr "Дополнительные настройки"
+
+#: includes/WC_Settings_IIKO.php:146 includes/WC_Settings_IIKO.php:147
+msgid "Update only product price for re-import"
+msgstr "При повторном импорте обновлять только цену товара."
+
+#: includes/WC_Settings_IIKO.php:155
+msgid "Update products automatically"
+msgstr "Обновлять товары автоматически"
+
+#: includes/WC_Settings_IIKO.php:156
+msgid "Update products automatically every day"
+msgstr "Включить автоматическое ежедневное обновление товаров"
+
+#: includes/WC_Settings_IIKO.php:164 includes/WC_Settings_IIKO.php:165
+msgid "Do not upload or update images when importing"
+msgstr "Не загружать и не обновлять изображения при импорте"
+
+#: includes/WC_Settings_IIKO.php:173
+msgid "Type items for loading"
+msgstr "Типы элементов для загрузки"
+
+#: includes/WC_Settings_IIKO.php:174
+msgid "Select type items for loading"
+msgstr "Выберите тип для загрузки"
+
+#: includes/WC_Settings_IIKO.php:182
+msgid "All"
+msgstr "Все"
+
+#: includes/WC_Settings_IIKO.php:183
+msgid "Dish"
+msgstr "Блюда"
+
+#: includes/WC_Settings_IIKO.php:184
+msgid "Product (Good)"
+msgstr "Товары"
+
+#: includes/WC_Settings_IIKO.php:185
+msgid "Modifier"
+msgstr "Модификатор"
+
+#: includes/WC_Settings_IIKO.php:186
+msgid "Product and Dish"
+msgstr "Товары и Блюда"
+
+#: includes/WC_Settings_IIKO.php:199
+msgid "Delivery Types"
+msgstr "Типы доставки."
+
+#: includes/WC_Settings_IIKO.php:205
+msgid "The code of delivery type \"I'll take it myself\""
+msgstr "Код доставки типа \"Самовывоз\""
+
+#: includes/WC_Settings_IIKO.php:206
+msgid "Specify the code of the delivery type \"Take it myself.\""
+msgstr "Укажите код доставки типа «Сам заберу»."
+
+#: includes/WC_Settings_IIKO.php:215
+msgid "Code of delivery type \"Home delivery\""
+msgstr "Код типа доставки \"Доставка на дом\""
+
+#: includes/WC_Settings_IIKO.php:216
+msgid "Specify the delivery type code of the order \"Home delivery\"."
+msgstr "Укажите код типа доставки \"Доставка на дом\"."
+
+#: includes/WC_Settings_IIKO.php:226
+msgid "\"Cash\" payment code"
+msgstr "Код оплаты \"Оплата наличными\""
+
+#: includes/WC_Settings_IIKO.php:227
+msgid "Specify the payment type code of the order \"Cash payment\""
+msgstr "Код типа оплаты «Оплата наличными»"
+
+#: includes/WC_Settings_IIKO.php:235
+msgid "Code of payment type \"Card\""
+msgstr "Код \"Оплата картой\""
+
+#: includes/WC_Settings_IIKO.php:236
+msgid "Specify the code of the payment type of the order \"Card Payment\""
+msgstr "Укажите код типа оплаты «Оплата картой»"
+
+#: includes/WC_Settings_IIKO.php:254
+msgid "Checkout page"
+msgstr "Страница Оплаты"
+
+#: includes/WC_Settings_IIKO.php:260
+msgid "Any text. Displayed on the payment page."
+msgstr "Произвольный текст. Отображается на странице оплаты."
+
+#: includes/WC_Settings_IIKO.php:262
+msgid "Enter any text here to show it on the payment page."
+msgstr "Введите сюда любой текст, чтобы показать его на странице оплаты."
+
+#: includes/WC_Settings_IIKO.php:267
+msgid "Show the choice of delivery terminal?"
+msgstr "Показать выбор терминала доставки?"
+
+#: includes/WC_Settings_IIKO.php:268
+msgid ""
+"Check this if your have several Delivery terminals. And the user must choose "
+"one of them. "
+msgstr ""
+"Отметьте, если у вас есть несколько терминалов доставки. И пользователь "
+"должен выбрать один из них."
+
+#: includes/WC_Settings_IIKO.php:274
+msgid "Show Name or Address of delivery terminal?"
+msgstr "Показать Название или Адрес терминала доставки?"
+
+#: includes/WC_Settings_IIKO.php:275
+msgid "Works only if the option marked above."
+msgstr "Работает только если опция отмечена выше."
+
+#: includes/WC_Settings_IIKO.php:281
+msgid "Select display option. "
+msgstr "Как отображать"
+
+#: includes/WC_Settings_IIKO.php:283
+msgid "Name"
+msgstr "Название"
+
+#: includes/WC_Settings_IIKO.php:284
+msgid "Restaurant Name"
+msgstr "Название Ресторана"
+
+#: includes/WC_Settings_IIKO.php:285 includes/export/woo-checkout.php:193
+#: includes/export/woo-checkout.php:391
+msgid "Address"
+msgstr "Адрес"
+
+#: includes/WC_Settings_IIKO.php:286
+msgid "Name + Address"
+msgstr "Название + Адрес"
+
+#: includes/WC_Settings_IIKO.php:290 includes/WC_Settings_IIKO.php:291
+msgid "Specify the mask to enter the phone number"
+msgstr "Укажите маску для ввода номера телефона"
+
+#: includes/WC_Settings_IIKO.php:299
+msgid "Show calendar expanded"
+msgstr "Показывать календарь в развернутом виде"
+
+#: includes/WC_Settings_IIKO.php:300
+msgid ""
+"Check if you want to show the calendar immediately in expanded form, and not "
+"as a string."
+msgstr ""
+"Отметьте, хотите ли вы, чтобы календарь отображался сразу в развернутом виде,"
+" а не в виде строки."
+
+#: includes/WC_Settings_IIKO.php:306
+msgid "Specify the start time of the restaurant"
+msgstr "Укажите время начала работы ресторана"
+
+#: includes/WC_Settings_IIKO.php:307
+msgid "Specify the start time of the restaurant. For example: 11"
+msgstr "Укажите время начала работы ресторана. Например: 11"
+
+#: includes/WC_Settings_IIKO.php:319
+msgid "Specify the closing time of the restaurant"
+msgstr "Укажите время закрытия ресторана"
+
+#: includes/WC_Settings_IIKO.php:320
+msgid "Specify the time of the restaurant shutdown. For example: 23"
+msgstr "Укажите время закрытия ресторана. Например: 23"
+
+#: includes/WC_Settings_IIKO.php:332
+msgid "Number of days to pre-order"
+msgstr "Количество дней для предварительного заказа"
+
+#: includes/WC_Settings_IIKO.php:333
+msgid "The number of days to pre-order. For example: 7"
+msgstr "Количество дней для предварительного заказа. Например: 7"
+
+#: includes/WC_Settings_IIKO.php:345
+msgid "The number of hours for the preparation and delivery of the order"
+msgstr "Количество часов на подготовку и доставку заказа"
+
+#: includes/WC_Settings_IIKO.php:346
+msgid "Recommended value: 1 or 0"
+msgstr ""
+
+#: includes/WC_Settings_IIKO.php:355
+msgid ""
+"The number of hours required for the preparation and delivery of the order "
+"received in advance,\n"
+"             since the opening of the restaurant. For example, if the "
+"restaurant opens at 11,\n"
+"             stand at 1, then the delivery will be available for 12 hours."
+msgstr ""
+"Количество часов, необходимое для подготовки и доставки заказа, полученного "
+"заранее. Время с момента открытия ресторана. Например, если ресторан "
+"открывается в 11, и установлено 1, тогда доставка будет доступна на 12 часов."
+
+#: includes/ajax.php:29
+msgid "Restaurant selected"
+msgstr "Ресторан выбран"
+
+#: includes/ajax.php:30
+msgid "Please, reload this page to choose terminal."
+msgstr "Пожалуйста, перезагрузите эту страницу, чтобы выбрать терминал."
+
+#: includes/ajax.php:51
+msgid "Restaurant ID selected:"
+msgstr "Выбран ресторан с ID:"
+
+#: includes/ajax.php:52
+msgid "Please, reload this page to choose categories."
+msgstr "Пожалуйста, перезагрузите эту страницу, чтобы выбрать категории."
+
+#: includes/ajax.php:90 includes/ajax.php:91 includes/ajax.php:98
+#: includes/ajax.php:99
+msgid "Category"
+msgstr "Категория"
+
+#: includes/ajax.php:90 includes/ajax.php:91
+msgid "already exists."
+msgstr "уже существует."
+
+#: includes/ajax.php:98 includes/ajax.php:99
+msgid "has been added"
+msgstr "была добавлена"
+
+#: includes/ajax.php:101
+msgid "An error occurred while adding the category: "
+msgstr "Произошла ошибка при добавлении категории:"
+
+#: includes/ajax.php:114
+msgid "No value!"
+msgstr "Нет значения!"
+
+#: includes/ajax.php:118
+msgid "Everything went well!"
+msgstr "Все прошло успешно!"
+
+#: includes/ajax.php:168
+#, php-format
+msgid "Total uploaded and updated products: <strong>%s</strong>"
+msgstr "Всего загружено и обновлено товаров: <strong>%s</strong>"
+
+#: includes/ajax.php:196
+msgid ""
+"Transient and options organization has be removed. Please reload this page."
+msgstr ""
+"Транзиты и опции Организации были удалены. Пожалуйста, перезагрузите "
+"страницу."
+
+#: includes/ajax.php:216
+msgid ""
+"Transient and options terminals has be removed. Please reload this page."
+msgstr ""
+"Транзиты и опции Терминала были удалены. Пожалуйста, перезагрузите страницу."
+
+#: includes/ajax.php:238
+msgid ""
+"Transient and options products and categories has be removed. Please reload "
+"this page."
+msgstr ""
+"Транзиты и опции Товаров и Категорий были удалены. Пожалуйста, перезагрузите "
+"страницу."
+
+#: includes/ajax.php:267
+#, php-format
+msgid "Trying to remove %s products."
+msgstr "Пробую удалить %s товаров."
+
+#: includes/ajax.php:283
+#, php-format
+msgid "Removed %s products."
+msgstr "Удалено %s товаров"
+
+#: helpers/DeliveryTerminals.php:84
+msgid "Пн-Вс"
+msgstr ""
+
+#: helpers/DeliveryTerminals.php:86 helpers/DeliveryTerminals.php:88
+msgid "Пн"
+msgstr ""
+
+#: helpers/DeliveryTerminals.php:86 helpers/DeliveryTerminals.php:93
+#: helpers/DeliveryTerminals.php:100 helpers/DeliveryTerminals.php:107
+#: helpers/DeliveryTerminals.php:114 helpers/DeliveryTerminals.php:121
+#: helpers/DeliveryTerminals.php:128
+msgid "Закрыто"
+msgstr ""
+
+#: helpers/DeliveryTerminals.php:93 helpers/DeliveryTerminals.php:95
+msgid "Вт"
+msgstr ""
+
+#: helpers/DeliveryTerminals.php:100 helpers/DeliveryTerminals.php:102
+msgid "Ср"
+msgstr ""
+
+#: helpers/DeliveryTerminals.php:107 helpers/DeliveryTerminals.php:109
+msgid "Чт"
+msgstr ""
+
+#: helpers/DeliveryTerminals.php:114 helpers/DeliveryTerminals.php:116
+msgid "Пт"
+msgstr ""
+
+#: helpers/DeliveryTerminals.php:121 helpers/DeliveryTerminals.php:123
+msgid "Сб"
+msgstr ""
+
+#: helpers/DeliveryTerminals.php:128 helpers/DeliveryTerminals.php:130
+msgid "Вс"
+msgstr ""
+
+#: helpers/dashboard-widget.php:7
+msgid "Iiko info"
+msgstr "Информация IIko"
+
+#: helpers/dashboard-widget.php:16
+msgid "Product information has not been received"
+msgstr "Информация о товаре не была получена"
+
+#: helpers/dashboard-widget.php:32
+msgid "Trial version"
+msgstr "Демо версия"
+
+#: helpers/dashboard-widget.php:37
+msgid "Last uploaded data:"
+msgstr "Дата последней выгрузки:"
+
+#: helpers/dashboard-widget.php:38 includes/import/admin-template/run.php:40
+msgid "<b>Revision</b> №"
+msgstr "<b>Ревизия</b> №"
+
+#: helpers/dashboard-widget.php:39 includes/import/admin-template/run.php:41
+msgid "<b>Upload date: </b> "
+msgstr "<b>Дата загрузки: </b> "
+
+#: helpers/dashboard-widget.php:40 includes/import/admin-template/run.php:42
+msgid "<b>Total items: </b>"
+msgstr "<b>Всего наименований: </b>"
+
+#: helpers/dashboard-widget.php:44
+msgid "When re-import update prices only?"
+msgstr "При повторном импорте обновлять только цены?"
+
+#: helpers/dashboard-widget.php:45
+msgid "Scheduled upload included?"
+msgstr "Включить загрузку по расписанию?"
+
+#: helpers/dashboard-widget.php:46
+msgid "License:"
+msgstr "Лицензия:"
+
+#: helpers/helpers.php:84
+msgid "Iiko ID"
+msgstr "Iiko ID"
+
+#: includes/export/filters.php:47
+msgid "Delivery terminal"
+msgstr "Ресторан"
+
+#: includes/export/filters.php:73
+msgid "Сам заберу"
+msgstr "Сам заберу"
+
+#: includes/export/filters.php:76
+msgid "Доставка курьером"
+msgstr "Доставка курьером"
+
+#: includes/export/woo-checkout.php:261
+msgid "Time of delivery"
+msgstr "Время доставки"
+
+#: includes/export/woo-checkout.php:264
+msgid "As fast as possible"
+msgstr "Как можно быстрее"
+
+#: includes/export/woo-checkout.php:264
+msgid "Select delivery time"
+msgstr "Выбрать время доставки"
+
+#: includes/export/woo-checkout.php:273
+msgid "Choose the date and time of delivery"
+msgstr "Выберите дату и время доставки"
+
+#: includes/export/woo-checkout.php:275
+msgid "Delivery date and time"
+msgstr "Дата и время доставки"
+
+#: includes/export/woo-checkout.php:285
+msgid "Delivery type"
+msgstr "Тип доставки"
+
+#: includes/export/woo-checkout.php:288
+msgid "Delivery to home"
+msgstr "Доставка на дом"
+
+#: includes/export/woo-checkout.php:288
+msgid "I'll take it myself"
+msgstr "Сам заберу"
+
+#: includes/export/woo-checkout.php:298
+msgid "Phone number"
+msgstr "Номер телефона"
+
+#: includes/export/woo-checkout.php:306
+msgid "Email"
+msgstr "Email"
+
+#: includes/export/woo-checkout.php:315 includes/export/woo-checkout.php:497
+msgid "Street"
+msgstr "Улица"
+
+#: includes/export/woo-checkout.php:317
+msgid "Street name"
+msgstr "Название улицы"
+
+#: includes/export/woo-checkout.php:327
+msgid "Street id in Iiko"
+msgstr "Id улицы в iiko"
+
+#: includes/export/woo-checkout.php:336 includes/export/woo-checkout.php:338
+msgid "Street name in Iiko"
+msgstr "Название улицы в iiko"
+
+#: includes/export/woo-checkout.php:347 includes/export/woo-checkout.php:349
+#: includes/export/woo-checkout.php:451 includes/export/woo-checkout.php:501
+msgid "Home"
+msgstr "Дом"
+
+#: includes/export/woo-checkout.php:358 includes/export/woo-checkout.php:360
+#: includes/export/woo-checkout.php:456 includes/export/woo-checkout.php:505
+msgid "Housing"
+msgstr "Корпус"
+
+#: includes/export/woo-checkout.php:369 includes/export/woo-checkout.php:371
+#: includes/export/woo-checkout.php:466 includes/export/woo-checkout.php:513
+msgid "Apartment"
+msgstr "Квартира"
+
+#: includes/export/woo-checkout.php:380 includes/export/woo-checkout.php:382
+#: includes/export/woo-checkout.php:461 includes/export/woo-checkout.php:509
+msgid "Entrance"
+msgstr "Подъезд"
+
+#: includes/export/woo-checkout.php:489 includes/export/create-order.php:49
+msgid "Delivery method"
+msgstr "Способ доставки"
+
+#: includes/export/woo-checkout.php:493
+msgid "Delivery date & time"
+msgstr "Время и дата доставки"
+
+#: includes/export/create-order.php:84
+msgid "Order transferred to the delivery service. Expect courier. "
+msgstr "Заказ передан в службу доставки. Ожидайте курьера."
+
+#: includes/export/create-order.php:88
+msgid "Order transferred to manager. Expect call."
+msgstr "Заказ передан менеджеру. Ожидайте звонка."
+
+#: includes/export/create-order.php:92
+#, php-format
+msgid ""
+"The order %s was not passed to the delivery service. Please contact our "
+"manager!"
+msgstr ""
+"Заказ %s не был передан службе доставки. Пожалуйста, свяжитесь с нашим "
+"менеджером!"
+
+#: includes/import/cron_auto_update.php:52
+#, php-format
+msgid "Total uploaded and updated products:<strong>%s</strong>"
+msgstr "Всего загружено и обновлено товаров: <strong>%s</strong>"
+
+#: includes/import/form-import.php:33
+msgid "Welcome to iiko importer"
+msgstr "Добро пожаловать в Iiko импортер"
+
+#: includes/import/form-import.php:65 includes/import/IikoAdmin.php:103
+msgid "Import"
+msgstr "Импорт"
+
+#: includes/import/form-import.php:67
+msgid "Choose an organization and reload the page."
+msgstr "Выберите организацию и перезагрузите страницу."
+
+#: includes/import/form-import.php:68
+msgid "Choose a terminal. Reload the page."
+msgstr "Выберите терминал доставки и перезагрузите страницу."
+
+#: includes/import/form-import.php:69
+msgid "Choose product categories to import."
+msgstr "Выберите категории товаров для импорта."
+
+#: includes/import/form-import.php:70
+msgid "Start importing categories and products."
+msgstr "Запустите импорт категорий и товаров "
+
+#: includes/import/form-import.php:87
+msgid "Terminal list is empty!"
+msgstr "Список терминалов пуст!"
+
+#: includes/import/form-import.php:116
+msgid ""
+"In case of error by the API, you can reset the transits and send the request "
+"again. \n"
+"                    <br> Attention list of terminals can be obtained no more "
+"than once a day.!"
+msgstr ""
+"В случае ошибки API вы можете сбросить транзиты и снова отправить запрос. "
+"<br> Список терминалов рекомендуется запрашивать не чаще одного раза в день."
+
+#: includes/import/form-import.php:119
+msgid "Reset restaurant list"
+msgstr "Сбросить список ресторанов"
+
+#: includes/import/form-import.php:121
+msgid "Reset terminal list"
+msgstr "Сбросить список терминалов"
+
+#: includes/import/form-import.php:123
+msgid "Reset products and categories list"
+msgstr "Сбросить список товаров и категорий"
+
+#: includes/import/form-import.php:126
+msgid ""
+"In case of errors, you can remove all the products derived from iiko with "
+"images."
+msgstr ""
+"В случае ошибок вы можете удалить все товары, полученные из iiko с "
+"изображениями."
+
+#: includes/import/form-import.php:127
+msgid "Remove items"
+msgstr "Удалить товары"
+
+#: includes/import/form-import.php:153
+msgid ""
+"Category loading ... This may take a long time. Do not refresh the page."
+msgstr ""
+"Загрузка категорий ... Это может занять много времени. Не обновляйте "
+"страницу."
+
+#: includes/import/form-import.php:165
+msgid ""
+"Products loading ... This may take a long time. Do not refresh the page."
+msgstr ""
+"Загрузка товаров ... Это может занять много времени. Не обновляйте страницу."
+
+#: includes/import/form-import.php:178
+msgid ""
+"An error occurred during the download! See the details in the JS console."
+msgstr "Произошла ошибка во время загрузки! Смотрите подробности в консоли JS."
+
+#: includes/import/form-import.php:201
+msgid "Products are deleted ... Do not refresh the page."
+msgstr "Данные о товарах удаляются... Не обновляйте страницу."
+
+#: includes/import/iikoApi.php:64 includes/import/iikoApi.php:92
+#: includes/import/iikoApi.php:168 includes/import/iikoApi.php:200
+#: includes/import/iikoApi.php:234
+#, php-format
+msgid "Transient %s success set "
+msgstr "Транзит %s успешно установлен"
+
+#: includes/import/iikoApi.php:132
+msgid ""
+"RabbitMq queue is not found. Call <a href=\"https://iiko.ru/support\">iiko "
+"support</a> for help"
+msgstr ""
+"Очередь RabbitMq не найдена. Свяжитесь с <a href=\"https://iiko.ru/support\">"
+"поддержкой iiko</a> для помощи."
+
+#: includes/import/iikoApi.php:292
+msgid "error in method"
+msgstr "ошибка в методе"
+
+#: includes/import/iikoApi.php:296
+msgid "Response error: "
+msgstr "Ошибка в ответе:"
+
+#: includes/import/iikoApi.php:307
+msgid "Response bad"
+msgstr "Ответ с ошибкой"
+
+#: includes/import/IikoAdmin.php:84
+msgid "Iiko import"
+msgstr "Iiko импорт"
+
+#: includes/import/IikoAdmin.php:102
+#: includes/import/admin-template/show_options.php:14
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/import/IikoAdmin.php:115
+msgid "Activate license"
+msgstr "Активировать лицензию"
+
+#: includes/import/IikoAdmin.php:179
+msgid "Please set Connection settings."
+msgstr "Пожалуйста установите настройки соединения"
+
+#: includes/import/IikoAdmin.php:179
+msgid "Set settings"
+msgstr "Задать настройки"
+
+#: components/licence-manager/licence-manager.php:23
+msgid "Iiko licence manager"
+msgstr "Менеджер лицензий woo2iiko"
+
+#: components/licence-manager/licence-manager.php:23
+msgid "Iiko License"
+msgstr "Лицензия  iiko"
+
+#: components/licence-manager/licence-manager.php:33
+msgid "Iiko License Manager"
+msgstr "Менеджер лицензий woo to iiko"
+
+#: components/licence-manager/licence-manager.php:44
+msgid ""
+"Please enter the license key for this product to activate it. You were given "
+"a license key when you purchased this item."
+msgstr ""
+"Пожалуйста, введите лицензионный ключ для плагина, чтобы активировать его. "
+"Вам дали лицензионный ключ при покупке этого дополнения."
+
+#: components/licence-manager/licence-manager.php:46
+msgid "Thx for your choose!"
+msgstr "Спасибо за ваш выбор!"
+
+#: components/licence-manager/licence-manager.php:53
+msgid "License Key"
+msgstr "Лицензионный ключ"
+
+#: components/licence-manager/licence-manager.php:58
+msgid "Activate"
+msgstr "Активировать"
+
+#: components/licence-manager/licence-manager.php:59
+msgid "Deactivate"
+msgstr "Деактивировать"
+
+#: components/licence-manager/licence-manager.php:106
+#: components/licence-manager/licence-manager.php:152
+msgid "Unexpected Error! The query returned with an error."
+msgstr "Неожиданная ошибка! Запрос возвращен с ошибкой."
+
+#: components/licence-manager/licence-manager.php:111
+#: components/licence-manager/licence-manager.php:118
+#: components/licence-manager/licence-manager.php:157
+#: components/licence-manager/licence-manager.php:162
+msgid "The following message was returned from the server: "
+msgstr "Следующее сообщение было получено с сервера:"
+
+#: components/tgm/require_plugins.php:76
+msgid "Install Required Plugins"
+msgstr "Установите необходимые плагины"
+
+#: components/tgm/require_plugins.php:77
+msgid "Install Plugins"
+msgstr "Установите плагины"
+
+#: components/tgm/require_plugins.php:78
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Установка плагинов: %s"
+
+#: components/tgm/require_plugins.php:79
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Обновление плагинов: %s"
+
+#: components/tgm/require_plugins.php:80
+msgid "Something went wrong with the plugin API."
+msgstr "Что-то пошло не так с API плагинов."
+
+#: components/tgm/require_plugins.php:81
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Для этой темы требуется следующий плагин: %1$s."
+msgstr[1] "Для этой темы требуются следующие плагины: %1$s."
+msgstr[2] "Для этой темы требуются следующие плагины: %1$s."
+
+#: components/tgm/require_plugins.php:86
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Эта тема рекомендует следующий плагин: %1$s."
+msgstr[1] "Эта тема рекомендует следующие плагины: %1$s."
+msgstr[2] "Эта тема рекомендует следующие плагины: %1$s."
+
+#: components/tgm/require_plugins.php:91
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Следующий плагин необходимо обновить до последней версии, чтобы обеспечить "
+"максимальную совместимость с этой темой: %1$s."
+msgstr[1] ""
+"Следующие плагины необходимо обновить до последней версии, чтобы обеспечить "
+"максимальную совместимость с этой темой: %1$s."
+msgstr[2] ""
+"Следующий плагин необходимо обновить до последней версии, чтобы обеспечить "
+"максимальную совместимость с этой темой: %1$s."
+
+#: components/tgm/require_plugins.php:96
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Доступно обновление для: %1$s."
+msgstr[1] "Доступны обновления для следующих плагинов: %1$s."
+msgstr[2] "Доступны обновления для следующих плагинов: %1$s."
+
+#: components/tgm/require_plugins.php:101
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Следующий обязательный плагин в настоящее время неактивен: %1$s."
+msgstr[1] "Следующие обязательные плагины в настоящее время неактивны: %1$s."
+msgstr[2] "Следующие обязательные плагины в настоящее время неактивны: %1$s."
+
+#: components/tgm/require_plugins.php:106
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Следующий рекомендуемый плагин в настоящее время неактивен: %1$s."
+msgstr[1] "Следующие рекомендуемые плагины в настоящее время неактивны: %1$s."
+msgstr[2] "Следующие рекомендуемые плагины в настоящее время неактивны: %1$s."
+
+#: components/tgm/require_plugins.php:111
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Начать установку плагина"
+msgstr[1] "Начать установку плагинов"
+msgstr[2] "Начать установку плагинов"
+
+#: components/tgm/require_plugins.php:116
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Начать обновление плагина"
+msgstr[1] "Начать обновление плагинов"
+msgstr[2] "Начать обновление плагинов"
+
+#: components/tgm/require_plugins.php:121
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Активировать плагин"
+msgstr[1] "Активировать плагины"
+msgstr[2] "Активировать плагины"
+
+#: components/tgm/require_plugins.php:126
+msgid "Return to Required Plugins Installer"
+msgstr "Вернуться к программе установки необходимых плагинов"
+
+#: components/tgm/require_plugins.php:127
+msgid "Plugin activated successfully."
+msgstr "Плагин успешно активирован."
+
+#: components/tgm/require_plugins.php:128
+msgid "The following plugin was activated successfully:"
+msgstr "Следующий плагин был успешно активирован:"
+
+#: components/tgm/require_plugins.php:129
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Никаких действий не принято. Плагин %1$s уже был активен."
+
+#: components/tgm/require_plugins.php:130
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Плагин не активирован. Для этой темы требуется более новая версия %s. "
+"Пожалуйста, обновите плагин."
+
+#: components/tgm/require_plugins.php:131
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Все плагины установлены и успешно активированы. %1$s"
+
+#: components/tgm/require_plugins.php:132
+msgid "Dismiss this notice"
+msgstr "Скрыть уведомление"
+
+#: components/tgm/require_plugins.php:133
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Существует один или несколько обязательных или рекомендуемых плагинов для "
+"установки, обновления или активации."
+
+#: components/tgm/require_plugins.php:134
+msgid "Please contact the administrator of this site for help."
+msgstr "Пожалуйста, обратитесь к администратору этого сайта за помощью."
+
+#: includes/import/admin-template/show_options.php:15
+msgid "Please disable debug mode after work is ended"
+msgstr "Пожалуйста, отключите режим отладки после окончания работы"
+
+#: includes/import/admin-template/show_transient.php:10
+#: includes/import/admin-template/show_transient.php:14
+msgid "Transients"
+msgstr "Транзиты"
+
+#: includes/import/admin-template/run.php:53
+msgid "Start import products"
+msgstr "Запустить импорт"
+
+#: includes/import/admin-template/select-terminal.php:14
+msgid "Select a terminal"
+msgstr "Выбрать терминал"
+
+#: includes/import/admin-template/select-terminal.php:37
+msgid "Select terminal"
+msgstr "Выбрать терминал"
+
+#: includes/import/admin-template/select-categories.php:21
+msgid "Select categories to import"
+msgstr "Выберите категории для импорта"
+
+#: includes/import/admin-template/select-categories.php:40
+msgid "Select categories"
+msgstr "Выбрать категории"
+
+#: includes/import/admin-template/select-rest.php:16
+msgid "Select a restaurant"
+msgstr "Выберите ресторан"
+
+#: includes/import/admin-template/select-rest.php:39
+msgid "Select restaurant"
+msgstr "Выбрать ресторан"
+
+#: components/plugin-updates/Puc/v4p5/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr "Проверить обновления"
+
+#: components/plugin-updates/Puc/v4p5/Plugin/Ui.php:213
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr "Плагин %s обновлен."
+
+#: components/plugin-updates/Puc/v4p5/Plugin/Ui.php:215
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr "Доступна новая версия плагина %s."
+
+#: components/plugin-updates/Puc/v4p5/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr "Не удалось определить, доступны ли обновления для %s."
+
+#: components/plugin-updates/Puc/v4p5/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "Неизвестный статус проверки обновлений \"%s\""
+
+#. Name of the plugin
+msgid "Woo to Iiko"
+msgstr "Woo to Iiko"
+
+#. Description of the plugin
+msgid "Woocommerce to Iiko Plugin. Import products and Export orders."
+msgstr ""
+"Плагин для интеграции WooCommerce с Iiko API. Импорт товаров и Экспорт "
+"заказов."
+
+#. URI of the plugin
+msgid "http://woo-to-iiko.rwsite.ru/"
+msgstr "http://woo-to-iiko.rwsite.ru/"
+
+#. Author of the plugin
+msgid "Aleksey Tihomirov"
+msgstr "Алексей Тихомиров"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://rwsite.ru/"
+msgstr "https://rwsite.ru/"
